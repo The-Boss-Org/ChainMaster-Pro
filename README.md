@@ -43,6 +43,7 @@
 
 ## 🏗️ Architecture du Projet
 
+```bash
 ChainMaster-Pro/
 ├── 📂 src/
 │ ├── core/
@@ -70,8 +71,7 @@ ChainMaster-Pro/
 ├── Makefile
 ├── LICENSE
 └── README.md
-
-text
+```
 
 ## ⚡ Démarrage Rapide
 
@@ -139,7 +139,7 @@ make benchmark
 ✅ Documentation API à jour
 
 # Remerciements
-Professor Melatagia pour son mentorship exceptionnel
+**Professeur Melatagia** pour son mentorship exceptionnel
 
 🎓 Projet Académique - INF 231 - Structures de Données
 📅 Année 2025 - Université de Yaoundé 1
