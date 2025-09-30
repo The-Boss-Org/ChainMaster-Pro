@@ -47,10 +47,10 @@
 ChainMaster-Pro/
 ├── 📂 src/
 │ ├── core/
-│ │ ├── list_simple.c # Partie 1 & 2
-│ │ ├── list_double.c # Partie 3
-│ │ ├── list_circulaire_simple.c # Partie 4
-│ │ ├── list_circulaire_double.c # 👑 Partie 5
+│ │ ├── list_simple.c # Exercice 1 & 2
+│ │ ├── list_double.c # Exercice 3
+│ │ ├── list_circulaire_simple.c # Exercice 4
+│ │ ├── list_circulaire_double.c # Exercice 5
 │ │ └── common.c # Utilitaires communs
 │ ├── interfaces/
 │ │ └── main.c # Programme démonstration
