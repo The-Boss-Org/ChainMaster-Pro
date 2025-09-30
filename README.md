@@ -146,7 +146,10 @@ make benchmark
 **Professeur Melatagia** pour son mentorship exceptionnel
 
 🎓 Projet Académique - INF 231 - Structures de Données
+
 📅 Année 2025 - Université de Yaoundé 1
+
 👨‍💻 Leader MATAGNE DASSE Preslie Chanel
+
 
 ★ ChainMaster Pro - La référence ultime des listes chaînées en C ★
