@@ -114,14 +114,6 @@ int main() {
 }
 ```
 
-📊 Benchmark Performances
-Opération	Liste Simple	Liste Double	Cercle Simple	Cercle Double ✅
-Insertion Tête	O(1)	O(1)	O(1)	O(1) 🚀
-Insertion Queue	O(n)	O(1)	O(1)	O(1) 🚀
-Recherche	O(n)	O(n)	O(n)	O(n)
-Suppression	O(n)	O(n)	O(n)	O(n)
-Navigation Inverse	N/A	O(1)	N/A	O(1) 🚀
-
 # 🧪 Suite de Tests
 bash
 - Exécution complète des tests
