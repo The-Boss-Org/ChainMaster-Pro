@@ -133,9 +133,13 @@ make benchmark
 
 # Standards de Code
 ✅ French/English naming convention
+
 ✅ Commentaires détaillés pour les algorithmes complexes
+
 ✅ Gestion d'erreurs exhaustive
+
 ✅ Tests unitaires obligatoires
+
 ✅ Documentation API à jour
 
 # Remerciements
