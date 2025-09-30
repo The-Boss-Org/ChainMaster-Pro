@@ -13,13 +13,13 @@
 
 ## 👥 Équipe de Développement
 
-| Rôle | Membre | Tâche Assignée | Statut |
+| Matricule | Membre | Tâche Assignée | Statut |
 |------|--------|----------------|---------|
-| **Team Leader** | **Votre Nom** | **Partie 5** - Listes doublement circulaires | ✅ **Complété** |
-| Architecte Logiciel | Membre 2 | Partie 1 - Suppression avancée | 🔄 En cours |
-| Ingénieur Algorithmes | Membre 3 | Partie 2 - Insertion triée simple | 🔄 En cours |
-| Spécialiste Structures | Membre 4 | Partie 3 - Insertion triée double | 🔄 En cours |
-| Expert Optimisation | Membre 5 | Partie 4 - Listes circulaires simples | 🔄 En cours |
+| 23V2294 | MATAGNE DASSE PRESLIE CHANEL | Exercice 5 - Listes doublement circulaires | ✅ Complété |
+| 24G2771 | OUMAROU MVONGO CALEB ISRAEL | Exercice 1 - Suppression avancée | 🔄 En cours |
+| 24F2658 | VAMI NEGUEM YVO FREED | Exercice 2 - Insertion triée simple | 🔄 En cours |
+| 24G2255 | FOKOU FOFOU STEDDY RONEL | Exercice 3 - Insertion triée double | 🔄 En cours |
+| 24G2579 | HENDRIX MENOUNGA LEGRAND | Exercice 4 - Listes circulaires simples | 🔄 En cours |
 
 ## 🚀 Fonctionnalités Principales
 
@@ -40,6 +40,8 @@
 - **🔧 API Intuitive** - Interfaces cohérentes et documentées
 - **🧪 Tests Complets** - Couverture de tous les cas d'usage
 - **📚 Documentation Détaillée** - Guide d'apprentissage inclus
+
+## 🏗️ Architecture du Projet
 
 ChainMaster-Pro/
 ├── 📂 src/
@@ -120,29 +122,23 @@ Recherche	O(n)	O(n)	O(n)	O(n)
 Suppression	O(n)	O(n)	O(n)	O(n)
 Navigation Inverse	N/A	O(1)	N/A	O(1) 🚀
 
-🧪 Suite de Tests
+# 🧪 Suite de Tests
 bash
-# Exécution complète des tests
+- Exécution complète des tests
 make test-all
-
-# Validation mémoire
+- Validation mémoire
 make check-memory
-
-# Benchmark performances
+- Benchmark performances
 make benchmark
 
-Standards de Code
+# Standards de Code
 ✅ French/English naming convention
-
 ✅ Commentaires détaillés pour les algorithmes complexes
-
 ✅ Gestion d'erreurs exhaustive
-
 ✅ Tests unitaires obligatoires
-
 ✅ Documentation API à jour
 
-Remerciements
+# Remerciements
 Professor Melatagia pour son mentorship exceptionnel
 
 🎓 Projet Académique - INF 231 - Structures de Données
@@ -150,5 +146,3 @@ Professor Melatagia pour son mentorship exceptionnel
 👨‍💻 Leader MATAGNE DASSE Preslie Chanel
 
 ★ ChainMaster Pro - La référence ultime des listes chaînées en C ★
-
-## 🏗️ Architecture du Projet
