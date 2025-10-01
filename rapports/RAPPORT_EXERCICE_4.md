@@ -1,9 +1,9 @@
-# 📄 Rapport - Exercice 4
+#  Rapport - Exercice 4
 ## Insertion en Tête et en Queue dans une Liste Circulaire Simplement Chaînée
 
 ---
 
-## 📋 Informations Générales
+##  Informations Générales
 
 | Item | Détail |
 |------|--------|
@@ -16,13 +16,13 @@
 
 ---
 
-## 🎯 Objectif de l'Exercice
+##  Objectif de l'Exercice
 
 Implémenter les opérations d'insertion en tête et en queue dans une **liste circulaire** où le dernier nœud pointe vers le premier (pas de NULL), permettant un parcours infini.
 
 ---
 
-## 💻 Implémentation
+##  Implémentation
 
 ### Fichier Source
 **Emplacement**: `src/core/list_circulaire_simple.c`
@@ -130,7 +130,7 @@ void cll_free(Node* head) {
 
 ---
 
-## 🔍 Analyse de l'Algorithme
+##  Analyse de l'Algorithme
 
 ### Différence avec Liste Simple Classique
 
@@ -180,7 +180,7 @@ Résultat:
 
 ---
 
-## 📊 Visualisation de la Circularité
+##  Visualisation de la Circularité
 
 ### Liste Vide
 ```
@@ -216,7 +216,7 @@ head = NULL
 
 ---
 
-## 📊 Analyse de Complexité
+##  Analyse de Complexité
 
 ### Complexité Temporelle
 
@@ -293,7 +293,7 @@ cll_free(cll);
 
 ---
 
-## 🎬 Exemple d'Exécution Détaillé
+##  Exemple d'Exécution Détaillé
 
 ### Scénario Complet
 
@@ -358,7 +358,7 @@ do {
 
 ---
 
-## 🔧 Gestion de la Mémoire
+##  Gestion de la Mémoire
 
 ### Cas Particulier: Libération
 ```c
@@ -426,7 +426,7 @@ while (1) {  // Boucle infinie naturelle
 
 ---
 
-## 📚 Applications Pratiques
+##  Applications Pratiques
 
 ### 1. Round-Robin Scheduling
 ```c
