@@ -129,7 +129,7 @@ int main() {
     return 0;
 }
 ```
-
+```
 # 🧪 Suite de Tests
 bash
 - Exécution complète des tests
