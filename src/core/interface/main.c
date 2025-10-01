@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../include/interfaces.h"
+#include "include\interfaces.h"
 
 int main() {
     Node* liste = NULL;
