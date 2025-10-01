@@ -3,7 +3,7 @@
 
 ---
 
-## 📋 Informations Générales
+##  Informations Générales
 
 | Item | Détail |
 |------|--------|
@@ -16,13 +16,13 @@
 
 ---
 
-## 🎯 Objectif de l'Exercice
+##  Objectif de l'Exercice
 
 Implémenter une fonction qui insère un nouvel élément dans une liste simplement chaînée tout en **maintenant l'ordre croissant** de la liste.
 
 ---
 
-## 💻 Implémentation
+##  Implémentation
 
 ### Fichier Source
 **Emplacement**: `src/core/list_simple.c`
@@ -58,7 +58,7 @@ SNode* sll_insert_sorted(SNode* head, int value) {
 
 ---
 
-## 🔍 Analyse de l'Algorithme
+##  Analyse de l'Algorithme
 
 ### Étapes de l'Algorithme
 
@@ -86,7 +86,7 @@ SNode* sll_insert_sorted(SNode* head, int value) {
 
 ---
 
-## 📊 Cas de Figures
+##  Cas de Figures
 
 | Cas | État Initial | Valeur | État Final |
 |-----|-------------|--------|------------|
@@ -98,7 +98,7 @@ SNode* sll_insert_sorted(SNode* head, int value) {
 
 ---
 
-## 📊 Analyse de Complexité
+##  Analyse de Complexité
 
 ### Complexité Temporelle
 
@@ -119,7 +119,7 @@ SNode* sll_insert_sorted(SNode* head, int value) {
 
 ---
 
-## 🧪 Tests Unitaires
+##  Tests Unitaires
 
 ### Test 1: Liste Vide
 ```c
@@ -150,7 +150,7 @@ TEST(test_sll_insert_sorted_order) {
 
 ---
 
-## 🎬 Exemple d'Exécution Détaillé
+##  Exemple d'Exécution Détaillé
 
 ### Scénario: Construction d'une Liste Triée
 
@@ -210,7 +210,7 @@ Résultat: 1->3->6->9->12->15->NULL
 
 ---
 
-## 🔧 Gestion de la Mémoire
+##  Gestion de la Mémoire
 
 ### Allocation
 ```c
@@ -231,7 +231,7 @@ valgrind --leak-check=full ./demo_all
 
 ---
 
-## 🎯 Comparaison: Insertion Triée vs Insertion + Tri
+##  Comparaison: Insertion Triée vs Insertion + Tri
 
 ### Méthode 1: Insertion Triée (Notre Approche)
 ```
@@ -253,7 +253,7 @@ Total: O(n + n log n) = O(n log n)
 
 ---
 
-## 💡 Optimisations et Variantes
+##  Optimisations et Variantes
 
 ### Optimisation 1: Pointeur de Queue
 ```c
