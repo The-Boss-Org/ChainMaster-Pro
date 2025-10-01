@@ -1,9 +1,9 @@
-# 📄 Rapport - Exercice 5
+#  Rapport - Exercice 5
 ## Insertion en Tête et en Queue dans une Liste Circulaire Doublement Chaînée
 
 ---
 
-## 📋 Informations Générales
+##  Informations Générales
 
 | Item | Détail |
 |------|--------|
@@ -16,13 +16,13 @@
 
 ---
 
-## 🎯 Objectif de l'Exercice
+##  Objectif de l'Exercice
 
 Implémenter la **structure de liste la plus puissante**: doublement chaînée ET circulaire, permettant des insertions en **O(1)** en tête ET en queue, avec navigation bidirectionnelle circulaire.
 
 ---
 
-## 💻 Implémentation
+##  Implémentation
 
 ### Fichier Source
 **Emplacement**: `src/core/list_circulaire_double.c`
@@ -135,7 +135,7 @@ void cdll_free(DNode* head) {
 
 ---
 
-## 🔍 Analyse de l'Algorithme
+##  Analyse de l'Algorithme
 
 ### Pourquoi O(1) pour Insertion en Queue?
 
@@ -209,7 +209,7 @@ Complexité: O(1) - Aucun parcours!
 
 ---
 
-## 📊 Visualisation de la Structure
+##  Visualisation de la Structure
 
 ### Un Seul Élément
 ```
@@ -252,7 +252,7 @@ Chaque flèche représente:
 
 ---
 
-## 📊 Comparaison des Structures
+##  Comparaison des Structures
 
 ### Tableau Comparatif Complet
 
@@ -273,7 +273,7 @@ Chaque flèche représente:
 
 ---
 
-## 🧪 Tests Unitaires
+##  Tests Unitaires
 
 ### Test 1: Insertion en Tête
 ```c
@@ -336,7 +336,7 @@ cdll_free(cdll);
 
 ---
 
-## 🎬 Démonstration Complète
+##  Démonstration Complète
 
 ### Scénario: Construction Étape par Étape
 
@@ -440,7 +440,7 @@ Gain: 500x plus rapide! 🚀
 
 ---
 
-## 🔧 Gestion de la Mémoire
+##  Gestion de la Mémoire
 
 ### Allocation
 ```c
@@ -476,7 +476,7 @@ valgrind --leak-check=full ./demo_all
 
 ---
 
-## 💡 Applications Avancées
+##  Applications Avancées
 
 ### 1. LRU Cache Optimal
 ```c
@@ -566,7 +566,7 @@ void redo(Editor* ed) {
 
 ---
 
-## 🎓 Concepts Avancés
+##  Concepts Avancés
 
 ### Invariants Maintenus
 
