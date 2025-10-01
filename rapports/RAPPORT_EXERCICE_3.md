@@ -1,9 +1,9 @@
-# 📄 Rapport - Exercice 3
+#  Rapport - Exercice 3
 ## Insertion Triée dans une Liste Doublement Chaînée
 
 ---
 
-## 📋 Informations Générales
+##  Informations Générales
 
 | Item | Détail |
 |------|--------|
@@ -16,13 +16,13 @@
 
 ---
 
-## 🎯 Objectif de l'Exercice
+##  Objectif de l'Exercice
 
 Implémenter une fonction qui insère un élément dans une liste doublement chaînée tout en maintenant l'ordre croissant et en gérant **deux pointeurs** (prev et next) pour chaque nœud.
 
 ---
 
-## 💻 Implémentation
+##  Implémentation
 
 ### Fichier Source
 **Emplacement**: `src/core/list_double.c`
@@ -75,7 +75,7 @@ DList* dll_insert_sorted(DList* head, int value) {
 
 ---
 
-## 🔍 Analyse de l'Algorithme
+##  Analyse de l'Algorithme
 
 ### Différence avec Liste Simple
 
@@ -132,7 +132,7 @@ DList* dll_insert_sorted(DList* head, int value) {
 
 ---
 
-## 📊 Visualisation des Insertions
+##  Visualisation des Insertions
 
 ### Cas 1: Insertion en Tête
 ```
@@ -177,7 +177,7 @@ Liens créés:
 
 ---
 
-## 📊 Analyse de Complexité
+##  Analyse de Complexité
 
 ### Complexité Temporelle
 
@@ -198,7 +198,7 @@ Liens créés:
 
 ---
 
-## 🧪 Tests Unitaires
+##  Tests Unitaires
 
 ### Test 1: Liste Vide
 ```c
@@ -401,7 +401,7 @@ if (cur->next) cur->next->prev = node;
 
 ---
 
-## 📚 Applications Pratiques
+##  Applications Pratiques
 
 ### Cas d'Usage Idéaux
 1. **Éditeur de texte** (undo/redo)
