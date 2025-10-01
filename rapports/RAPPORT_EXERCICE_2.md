@@ -1,4 +1,4 @@
-# 📄 Rapport - Exercice 2
+#  Rapport - Exercice 2
 ## Insertion Triée dans une Liste Simplement Chaînée
 
 ---
