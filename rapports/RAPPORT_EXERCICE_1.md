@@ -1,9 +1,9 @@
-# 📄 Rapport - Exercice 1
+#  Rapport - Exercice 1
 ## Suppression de Toutes les Occurrences dans une Liste Simplement Chaînée
 
 ---
 
-## 📋 Informations Générales
+##  Informations Générales
 
 | Item | Détail |
 |------|--------|
@@ -16,13 +16,13 @@
 
 ---
 
-## 🎯 Objectif de l'Exercice
+##  Objectif de l'Exercice
 
 Implémenter une fonction qui parcourt une liste simplement chaînée et supprime **toutes** les occurrences d'une valeur donnée, tout en gérant correctement la mémoire.
 
 ---
 
-## 💻 Implémentation
+##  Implémentation
 
 ### Fichier Source
 **Emplacement**: `src/core/list_simple.c`
@@ -60,7 +60,7 @@ SNode* sll_delete_all(SNode* head, int key) {
 
 ---
 
-## 🔍 Analyse de l'Algorithme
+##  Analyse de l'Algorithme
 
 ### Étapes de l'Algorithme
 
@@ -95,7 +95,7 @@ SNode* sll_delete_all(SNode* head, int key) {
 
 ---
 
-## 📊 Analyse de Complexité
+##  Analyse de Complexité
 
 ### Complexité Temporelle
 - **Meilleur cas**: O(n) - un seul parcours
@@ -114,7 +114,7 @@ Pour une liste de `n` éléments:
 
 ---
 
-## 🧪 Tests Unitaires
+##  Tests Unitaires
 
 ### Test 1: Liste Vide
 ```c
@@ -156,7 +156,7 @@ TEST(test_sll_delete_all_multiple) {
 
 ---
 
-## 🎬 Exemple d'Exécution
+##  Exemple d'Exécution
 
 ### Entrée
 ```
@@ -186,7 +186,7 @@ Liste: 5 -> 7 -> 9 -> NULL
 
 ---
 
-## 🔧 Gestion de la Mémoire
+##  Gestion de la Mémoire
 
 ### Allocation
 - ❌ Aucune allocation dans cette fonction
@@ -231,7 +231,7 @@ if (cur->next->data == key) {
 
 ---
 
-## 📈 Optimisations Possibles
+##  Optimisations Possibles
 
 ### Version Actuelle
 - ✅ Un seul parcours
@@ -244,7 +244,7 @@ if (cur->next->data == key) {
 
 ---
 
-## 🎓 Concepts Appliqués
+##  Concepts Appliqués
 
 ### Structures de Données
 - Liste simplement chaînée
