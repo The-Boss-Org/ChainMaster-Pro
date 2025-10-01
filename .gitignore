@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Compiled tests
+test_runner
+demo
+demo_all
+tutorial
+benchmark

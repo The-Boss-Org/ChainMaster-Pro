@@ -3,12 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-// Définition de la structure du nœud
-typedef struct Node {
-    int data;
-    struct Node* next;
-} Node;//node pour nœud
+#include "structures.h"
 
 // Prototypes des fonctions pour la liste circulaire simplement chaînée
 void afficher_liste(Node* head);

@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "../../include/interfaces.h"
+#include "../../include/chainmaster.h"
 
 
 // Définition de la structure du nœud
@@ -17,10 +19,6 @@ void afficher_liste(Node* head) {
 	} while (temp != head);
 	printf("\n");
 }
-typedef struct Node {
-	int data;
-	struct Node* next;
-} Node;
 
 // Création d'une nouvelle liste (retourne NULL)
 Node* creer_liste() {
@@ -61,4 +59,20 @@ Node* inserer_queue(Node* head, int valeur) {
 	temp->next = nouveau;
 	nouveau->next = head;
 	return head;
+}
+
+// === Wrappers conformes à chainmaster.h ===
+Node* cll_create(void) { return creer_liste(); }
+Node* cll_insert_head(Node* head, int value) { return inserer_tete(head, value); }
+Node* cll_insert_tail(Node* head, int value) { return inserer_queue(head, value); }
+void  cll_print(const Node* head) { afficher_liste((Node*)head); }
+void  cll_free(Node* head) {
+    if (!head) return;
+    Node* cur = head->next;
+    while (cur != head) {
+        Node* nxt = cur->next;
+        free(cur);
+        cur = nxt;
+    }
+    free(head);
 }

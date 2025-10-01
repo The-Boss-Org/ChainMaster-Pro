@@ -16,10 +16,10 @@
 | Matricule | Membre | Tâche Assignée | Statut |
 |------|--------|----------------|---------|
 | 23V2294 | MATAGNE DASSE PRESLIE CHANEL | Exercice 5 - Listes doublement circulaires | ✅ Complété |
-| 24G2771 | OUMAROU MVONGO CALEB ISRAEL | Exercice 1 - Suppression avancée | 🔄 En cours |
-| 24F2658 | VAMI NEGUEM YVO FREED | Exercice 2 - Insertion triée simple | 🔄 En cours |
-| 24G2255 | FOKOU FOFOU STEDDY RONEL | Exercice 3 - Insertion triée double | 🔄 En cours |
-| 24G2579 | HENDRIX MENOUNGA LEGRAND | Exercice 4 - Listes circulaires simples | 🔄 En cours |
+| 24G2771 | OUMAROU MVONGO CALEB ISRAEL | Exercice 1 - Suppression avancée | ✅ Complété |
+| 24F2658 | VAMI NEGUEM YVO FREED | Exercice 2 - Insertion triée simple | ✅ Complété |
+| 24G2255 | FOKOU FOFOU STEDDY RONEL | Exercice 3 - Insertion triée double | ✅ Complété |
+| 24G2579 | HENDRIX MENOUNGA LEGRAND | Exercice 4 - Listes circulaires simples | ✅ Complété |
 
 ## 🚀 Fonctionnalités Principales
 
@@ -27,10 +27,10 @@
 
 | Module | Complexité | Features | Statut |
 |--------|------------|----------|---------|
-| **Suppression Intelligente** | O(n) | Suppression multi-occurrences, gestion mémoire | 🟡 |
-| **Insertion Triée Simple** | O(n) | Maintien ordre croissant, optimisation | 🟡 |
-| **Insertion Triée Double** | O(n) | Navigation bidirectionnelle, cohérence | 🟡 |
-| **Circularité Simple** | O(1) | Insertion tête/queue rapide, gestion fine | 🟡 |
+| **Suppression Intelligente** | O(n) | Suppression multi-occurrences, gestion mémoire | ✅ |
+| **Insertion Triée Simple** | O(n) | Maintien ordre croissant, optimisation | ✅ |
+| **Insertion Triée Double** | O(n) | Navigation bidirectionnelle, cohérence | ✅ |
+| **Circularité Simple** | O(1) | Insertion tête/queue rapide, gestion fine | ✅ |
 | **Circularité Double** ✅ | **O(1)** | **Double liaison, circularité parfaite** | ✅ |
 
 ### 🎯 Highlights Techniques
@@ -51,12 +51,11 @@ ChainMaster-Pro/
 │ │ ├── list_double.c # Exercice 3
 │ │ ├── list_circulaire_simple.c # Exercice 4
 │ │ ├── list_circulaire_double.c # Exercice 5
-│ │ └── common.c # Utilitaires communs
-│ ├── interfaces/
-│ │ └── main.c # Programme démonstration
+│ │ ├── common.c # Utilitaires communs
+│ │ └── interface/
+│ │     └── main.c # Programme démonstration interactive
 │ └── tests/
-│ ├── test_runner.c
-│ └── test_*.c # Tests unitaires
+│     └── test_runner.c # Suite de tests unitaires
 ├── 📂 include/
 │ ├── chainmaster.h # Header principal
 │ ├── structures.h # Définitions structures
@@ -68,6 +67,13 @@ ChainMaster-Pro/
 ├── 📂 examples/
 │ ├── demo_complete.c
 │ └── tutorial.c
+├── 📂 rapports/
+│ ├── README.md # Index des rapports
+│ ├── RAPPORT_EXERCICE_1.md # Suppression occurrences
+│ ├── RAPPORT_EXERCICE_2.md # Insertion triée simple
+│ ├── RAPPORT_EXERCICE_3.md # Insertion triée double
+│ ├── RAPPORT_EXERCICE_4.md # Liste circulaire simple
+│ └── RAPPORT_EXERCICE_5.md # Liste circulaire double
 ├── Makefile
 ├── LICENSE
 └── README.md
@@ -75,23 +81,33 @@ ChainMaster-Pro/
 
 ## ⚡ Démarrage Rapide
 
-### Prérequis
-```bash
-# Vérification de l'environnement
-gcc --version
-make --version
-git --version
-Installation Express
-bash
-# Clone et compilation
-git clone https://github.com/votre-team/ChainMaster-Pro.git
-cd ChainMaster-Pro
+### 🪟 Windows (Double-Clic)
+```cmd
+# 1. Double-cliquez sur: build.bat
+# 2. Lancez le démo:
+build\demo_all.exe
 
-# Installation complète
-make install
+# Ou utilisez les scripts automatiques:
+run_demo.bat     # Compile et lance le démo
+run_tests.bat    # Compile et lance les tests
+```
+
+### 🐧 Linux/Mac
+```bash
+# Compilation complète
+make all
 
 # Lancement des démos
-make demo
+make demo_all
+
+# Tests
+make test-all
+```
+
+### Prérequis
+- **Compilateur C**: GCC (MinGW/TDM-GCC pour Windows)
+- **Make** (optionnel sur Windows, utilisez build.bat)
+- **Git** (pour cloner le projet)
 Utilisation Basique
 c
 #include "chainmaster.h"
